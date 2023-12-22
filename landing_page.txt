@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+	  
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+section {
+    /* ... your existing styles ... */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    position: relative;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure the header is on top of other elements */
+        }
+
+        header .nav-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        header .nav-container a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        header .nav-container a:hover {
+            background-color: #ddd;
+        }
+
+        header .company-name {
+            display: flex;
+            align-items: center;
+        }
+
+        header .company-name img {
+            margin-right: 10px; /* Adjust the margin as needed */
+            width: 30px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        section {
+            padding: 80px 20px 20px; /* Adjusted padding to avoid overlap with fixed header */
+
+
+		/*photopath*/ 
+
+
+            background-image: url("C:\\Users\\venkatesh goddati\\Downloads\\pexels-stephan-seeber-1261728.jpg");   
+            background-size: cover;
+            background-position: left top; /* Adjusted background position */
+            background-attachment: fixed; /* Fixed background */
+            color: #fff; /* White text color */
+            height: calc(100vh - 50px); /* Adjusted height to exclude header */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align content to the top */
+            align-items: flex-start; /* Align content to the left */
+            position: relative; /* Add position relative to position absolute child elements */
+        }
+
+        section p {
+            max-width: 600px; /* Adjusted max-width for content */
+            margin: 0; /* Remove default margin for paragraphs */
+            position: absolute; /* Position content absolutely */
+            top: 20%; /* Adjusted vertical position */
+            left: 20px; /* Adjusted horizontal position */
+            font-size: 24px; /* Adjusted font size */
+            line-height: 1.5; /* Adjusted line height */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <span class="company-name">
+                
+                Code Clause
+            </span>
+            <a href="#about">Home</a>
+            <a href="#signup">About</a>
+            <a href="#info">Internship Domains</a>
+            <a href="#contact">Roadmap</a>
+            <a href="#login">Speakers</a>
+		<a href="#login">login</a>
+        </div>
+    </header>
+
+    <section>
+       We empower you to find the right career path<br><br>
+       Join the Virtual Internship Program in emerging technologies with CodeClause
+    </section>
+
+    <footer>
+        &copy; 2023 Code Clause. All rights reserved.
+    </footer>
+
+</body>
+</html>
